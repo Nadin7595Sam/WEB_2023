@@ -1,6 +1,6 @@
 const userName = prompt("Введите имя: ");
 function greeting() {
     let message = 'Привет, ' + userName;
-    alert(message);
+    console.log(message);
 }
 greeting();
